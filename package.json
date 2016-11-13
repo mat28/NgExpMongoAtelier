@@ -1,6 +1,6 @@
 {
   "name": "mean-app",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Mat Mongoose",
   "main": "app.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+"
+    "url": "git+https://github.com/mat28/NgExpMongoAtelier.git"
   },
   "keywords": [
     "mean"
@@ -17,7 +17,7 @@
   "author": "RxMat",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fullstacktraining/mean-stack-hero/issues"
+    "url": "https://github.com/mat28/NgExpMongoAtelier.git/issues"
   },
   "dependencies": {
     "body-parser": "^1.14.2",
