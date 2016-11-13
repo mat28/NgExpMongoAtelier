@@ -1,0 +1,31 @@
+{
+  "name": "mean-app",
+  "version": "1.0.0",
+  "description": "Mat Mongoose",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "keywords": [
+    "mean"
+  ],
+  "author": "RxMat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fullstacktraining/mean-stack-hero/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "mongodb": "^2.1.7",
+    "mongoose": "^4.4.8"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  }
+}
