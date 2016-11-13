@@ -1,0 +1,29 @@
+[
+  {
+    "username" : "Mathieu",
+    "isAdmin" : "true",
+    "email" : "mathieu.roux21@gmail.com",
+    "firstName" : "Mathieu",
+    "lastName": "Roux",
+    "birthDay" : "25/08/1989",
+    "skills" : [
+      "Angular",
+      "Golang",
+      "React",
+      "MongoDB"
+    ]
+  },
+  {
+    "username" : "LicorneMan",
+    "isAdmin" : "false",
+    "email" : "unicorn.man@rainbow.com",
+    "firstName" : "Unicorn",
+    "lastName": "Man",
+    "birthDay" : "01/01/0001",
+    "skills" : [
+      "Faire des Glaces",
+      "Faire des Arc en Ciel",
+      "Avoir toujours la chevelure soyeuse"
+    ]
+  }
+]
