@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var Hotel = mongoose.model('Hotel');
 
-/*
+
 var runGeoQuery = function(req, res) {
 
   var lng = parseFloat(req.query.lng);
@@ -44,7 +44,7 @@ var runGeoQuery = function(req, res) {
       }
     });
 };
-*/
+
 module.exports.hotelsGetAll = function(req, res) {
 
   console.log('GET the hotels');
@@ -54,7 +54,7 @@ module.exports.hotelsGetAll = function(req, res) {
   var count = 5;
   var maxCount = 50;
 
-  /*if (req.query && req.query.lat && req.query.lng) {
+  if (req.query && req.query.lat && req.query.lng) {
     runGeoQuery(req, res);
     return;
   }
@@ -83,7 +83,7 @@ module.exports.hotelsGetAll = function(req, res) {
         "message" : "Count limit of " + maxCount + " exceeded"
       });
     return;
-  }*/
+  }
 
   Hotel
     .find()
@@ -233,21 +233,13 @@ module.exports.hotelsUpdateOne = function(req, res) {
 };
 
 
-module.exports.hotelsDeleteOne = function(req, res) {
-  var hotelId = req.params.hotelId;
 
-  Hotel
-    .findByIdAndRemove(hotelId)
-    .exec(function(err, location) {
-      if (err) {
-        res
-          .status(404)
-          .json(err);
-      } else {
-        console.log("Hotel deleted, id:", hotelId);
-        res
-          .status(204)
-          .json();
-      }
-    });
-};
+
+
+
+
+
+
+
+
+
