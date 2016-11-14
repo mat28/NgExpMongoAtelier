@@ -1,7 +1,7 @@
 {
-  "name": "mean-stakc-hero",
-  "version": "1.0.0",
-  "description": "This repo contains the MEAN stack application that is built through  Full Stack Training's MEAN Stack course.",
+  "name": "hotel-mean",
+  "version": "0.0.1",
+  "description": "Hotel Mean",
   "main": "app.js",
   "dependencies": {
     "body-parser": "^1.14.2",
@@ -15,13 +15,13 @@
     "mocha": "^2.3.3"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start" : "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fullstacktraining/mean-stack-hero.git"
+    "url": "git+https://github.com/mat28/NgExpMongoAtelier/.git"
   },
-  "author": "Tamas Piros",
+  "author": "RxMaTCreative",
   "license": "ISC"
 }
-
